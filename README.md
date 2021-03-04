@@ -1,1 +1,0 @@
-https://Lenka-W1.github.io/rsschool-cv/cv

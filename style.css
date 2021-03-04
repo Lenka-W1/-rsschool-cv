@@ -1,86 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: burlywood;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  div {
-    width: 580px;
-    height: 800px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: white;
-    position: absolute;
-    top: 60px;
-    box-shadow: 10px 5px 5px rgba(114, 113, 113, 0.596);
-  }
-  
-  header {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(78, 76, 76);
-  }
-  
-  .name-surname {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.2em;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-  }
-  
-  .title-with-contacts {
-    color: white;
-    margin-right: 15px;
-  }
-  
-  .title-text,
-  .title-with-contacts {
-    text-transform: uppercase;
-    font-size: 18px;
-    margin-left: 15px;
-    margin-bottom: 5px;
-  }
-  
-  .basic-information {
-    width: 400px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  
-  p {
-    opacity: 0.6;
-    margin-left: 15px;
-    line-height: 20px;
-  }
-  
-  .list-contacts {
-    color: snow;
-    opacity: 0.6;
-  }
-  .list {
-    position: relative;
-    left: 40px;
-    top: 10px;
-    line-height: 25px;
-    opacity: 0.6;
-  }
-  
-  .code-example {
-    margin-top: 5px;
-    margin-left: -150px;
-    opacity: 0.8;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  width: 580px;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  box-shadow: 10px 5px 5px rgba(114, 113, 113, 0.596);
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(78, 76, 76);
+}
+
+.name-surname {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.title-with-contacts {
+  color: white;
+  margin-right: 15px;
+}
+
+.title-text,
+.title-with-contacts {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.basic-information {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+p {
+  opacity: 0.6;
+  margin-left: 15px;
+  line-height: 20px;
+}
+
+.list-contacts {
+  color: snow;
+  opacity: 0.6;
+}
+.list {
+  position: relative;
+  left: 40px;
+  top: 10px;
+  line-height: 25px;
+  opacity: 0.6;
+}
+
+.code-example {
+  margin-top: 5px;
+  margin-left: -150px;
+  opacity: 0.8;
+}
+
+.myPhoto {
+  padding-top: 15px;
+  padding-left: 18px;
+  padding-bottom: 15px;
+}
+.photo {
+  height: 300px;
+  width: 230px;
+}
+
+footer {
+  width: 47%;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-top: 1px solid snow;
+  opacity: 0.6;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.link-githab {
+  color: white;
+  text-decoration: none;
+}
+
+.link-githab:hover {
+  text-decoration: underline;
+}

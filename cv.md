@@ -2,7 +2,7 @@
 
 ## _Contact information:_
 
-- ##### Republic of Belarus,Brest
+- ##### Republic of Belarus, Brest
 - ##### Phone: +375 29 258-95-90
 - ##### <LENka-W1@mail.ru>
 
@@ -32,7 +32,7 @@ function num(one, two) {
 ```
 ## _Education:_
 
-##### Сourses in front-end development at the MyIT school in Brest
+##### Сourses in front-end development at the MyIT school in Brest.
 
 ## _English:_ 
 

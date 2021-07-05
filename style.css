@@ -98,13 +98,15 @@ p {
 footer {
   width: 47%;
   height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
   position: absolute;
   bottom: 0px;
   left: 0px;
   border-top: 1px solid snow;
   opacity: 0.6;
-  padding-top: 15px;
-  text-align: center;
 }
 
 .link-githab {
@@ -114,4 +116,13 @@ footer {
 
 .link-githab:hover {
   text-decoration: underline;
+}
+
+.year {
+  color: white;
+}
+
+.rss {
+  width: 60px;
+  height: 60px;
 }

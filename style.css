@@ -59,6 +59,10 @@ body {
   flex-direction: column;
 }
 
+.title-with-contacts {
+  color: white;
+}
+
 .name-surname {
   font-size: 20px;
   font-weight: 500;
@@ -67,15 +71,17 @@ body {
   text-transform: uppercase;
 }
 
-.title-with-contacts {
+.list-contacts {
   color: white;
+  width: 200px;
+  height: 90px;
+  align-self: center;
+  opacity: 0.7;
+  text-align: left;
 }
 
-.title-text,
-.title-with-contacts {
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 0.1em;
+.list-item {
+  line-height: 25px;
 }
 
 .right-block {
@@ -85,6 +91,18 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #fff;
+  padding: 0 5%;
+}
+
+.title-text,
+.title-with-contacts {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+.title-text {
+  margin-bottom: 10px;
 }
 
 p {
@@ -92,34 +110,18 @@ p {
   line-height: 20px;
 }
 
-.list-contacts {
-  color: snow;
-  opacity: 0.6;
-  width: 200px;
-  align-self: center;
-}
-
 .list {
   line-height: 25px;
   opacity: 0.6;
-}
-
-.list-item {
-  padding-bottom: 5px;
+  padding-left: 20px;
 }
 
 .code-example {
-  width: 90%;
-  margin-top: 5px;
+  width: 84%;
   opacity: 0.8;
-  margin-left: 15px;
 }
 
-.code {
-  
-}
-
-.myPhoto {
+.my-photo {
   height: 300px;
   width: 230px;
   align-self: center;

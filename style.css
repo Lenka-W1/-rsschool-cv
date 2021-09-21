@@ -4,107 +4,208 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: burlywood;
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-div {
-  width: 580px;
-  height: 800px;
+body {
+  background-position: center;
+  background-color: burlywood;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 150px;
   display: flex;
-  justify-content: space-evenly;
-  background-color: white;
-  position: absolute;
-  top: 60px;
+  justify-content: center;
+  border-bottom: 5px solid burlywood;
+  border-top: 5px solid burlywood;
+}
+
+.header-menu {
+  width: 1024px;
+  height: 100%;
+  background-color: rgb(78, 76, 76);
   box-shadow: 10px 5px 5px rgba(114, 113, 113, 0.596);
 }
 
-header {
+.menu-navigation {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.menu-list > li {
+  padding: 0 4px;
+}
+
+.menu-list > li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: opacity 0.5s;
+}
+
+.menu-list > li a:hover {
+  opacity: 0.6;
+}
+
+.main-block {
+  width: 100%;
+  height: 1700px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 10px 5px 5px rgba(114, 113, 113, 0.596);
+}
+
+.left-block {
+  width: 340px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   background-color: rgb(78, 76, 76);
+  text-align: center;
+}
+
+.block-contacts {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.title-with-contacts {
+  color: white;
 }
 
 .name-surname {
   font-size: 20px;
   font-weight: 500;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: white;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 40px;
 }
 
-.title-with-contacts {
+.list-contacts {
   color: white;
-  margin-right: 15px;
+  width: 200px;
+  height: 90px;
+  align-self: center;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.list-item {
+  line-height: 25px;
+}
+
+.right-block {
+  width: 684px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding: 0 5%;
 }
 
 .title-text,
 .title-with-contacts {
   text-transform: uppercase;
   font-size: 18px;
-  margin-left: 15px;
-  margin-bottom: 5px;
+  letter-spacing: 0.1em;
 }
 
-.basic-information {
-  width: 400px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.title-text {
+  margin-bottom: 10px;
 }
 
 p {
   opacity: 0.6;
-  margin-left: 15px;
   line-height: 20px;
 }
 
-.list-contacts {
-  color: snow;
-  opacity: 0.6;
-}
 .list {
-  position: relative;
-  left: 40px;
-  top: 10px;
   line-height: 25px;
   opacity: 0.6;
+  padding-left: 20px;
 }
 
 .code-example {
-  margin-top: 5px;
-  margin-left: -150px;
+  width: 84%;
   opacity: 0.8;
 }
 
-.myPhoto {
-  padding-top: 15px;
-  padding-left: 18px;
-  padding-bottom: 15px;
-}
-.photo {
-  height: 300px;
-  width: 230px;
+.museum-project,
+.vertical-slider-project {
+  display: flex;
+  justify-content: space-between;
 }
 
-footer {
-  width: 47%;
+.museum-project {
+  margin-bottom: 10px;
+}
+
+.image-link {
+  max-width: 300px;
+  transition: opacity 0.5s;
+}
+
+.image-link:hover {
+  opacity: 0.6;
+}
+
+.block-discription {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.paragraph {
+  margin-top: 5px;
+}
+
+.my-photo {
+  height: 300px;
+  width: 230px;
+  align-self: center;
+  border: 5px solid burlywood;
+  border-radius: 50%;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.footer {
+  width: 100%;
   height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
   border-top: 1px solid snow;
   opacity: 0.6;
 }
@@ -125,4 +226,9 @@ footer {
 .rss {
   width: 60px;
   height: 60px;
+}
+
+iframe {
+  margin-top: 10px;
+  border: none;
 }

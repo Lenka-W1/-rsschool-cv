@@ -15,7 +15,16 @@
 <body>
   <header id="header">
     <div class="header-menu">
-     <nav></nav>
+     <nav class="menu-navigation">
+       <ul class="menu-list">
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#code_example">Code Example</a></li>
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="#education">Education</a></li>
+         <li><a href="#english">English</a></li>
+         <li><a href="#contacts">Contacts</a></li>
+      </ul>
+     </nav>
     </div>  
   </header>
   <main class="main-block">
@@ -26,7 +35,7 @@
           <figure class="my-photo">
             <img class="photo" src="foto.jpg" alt="Lenka :)">
           </figure>
-          <h2 class="title-with-contacts">Contact information:</h2>
+          <h2 class="title-with-contacts" id="contacts">Contact information:</h2>
           <ul class="list-contacts">
             <li class="list-item">Republic of Belarus, Brest</li>
             <li class="list-item">Phone: +375(29)258-95-90</li>
@@ -48,7 +57,7 @@
             Change profession. Become a front-end developer.
           </p>
         </section>
-        <section>
+        <section id="scills">
           <h2 class="title-text">Skills:</h2>
           <ul class="list">
             <li>HTML&CSS(basic)</li>
@@ -58,7 +67,7 @@
             <li>TS</li>
           </ul>
         </section>
-        <section>
+        <section id="code_example">
           <h2 class="title-text">Code example:</h2>
           <pre class="code-example">
             <code>
@@ -75,11 +84,43 @@
             </code>
           </pre>
         </section>
-        <section>
-          <h2 class="title-text">Education:</h2>
-          <p>Сourses in front-end development at the MyIT school in Brest.</p>
+        <section id="projects">
+          <h2 class="title-text">Projects:</h2>
+          <div class="museum-project">
+            <a href="https://rolling-scopes-school.github.io/lenka-w1-JSFEPRESCHOOL/museum/" target="_blank">
+              <img src="museum.png" alt="museum" class="image-link">
+            </a>
+            <div class="block-discription">
+              <h3>Museum</h3>
+              <p class="paragraph">
+                <strong>Louvre landing page.</strong><br>
+                  Technologies used:<br>
+                  HTML & CSS;<br>
+                  Java Script.
+              </p>
+            </div>
+          </div>
+          <div class="vertical-slider-project">
+            <a href="https://rolling-scopes-school.github.io/lenka-w1-JSFEPRESCHOOL/vertical-slider/" target="_blank">
+              <img src="vertical_slider.png" alt="vertical-slider" class="image-link">
+            </a>
+            <div class="block-discription">
+              <h3>Vertical slider</h3>
+              <p class="paragraph">
+                <strong>Study project<br>
+                  Rolling Scopes School</strong><br>
+                  Technologies used:<br>
+                  HTML & CSS;<br>
+                  Java Script.
+              </p>
+            </div>
+          </div>
         </section>
-        <section>
+        <section id="education">
+          <h2 class="title-text">Education:</h2>
+          <p>Courses in front-end development at the MyIT school in Brest.<br>Rolling Scopes School JS/FE PRE-SCHOOL course.</p>
+        </section>
+        <section id="english">
           <h2 class="title-text">English:</h2>
           <p>Pre-intermediate level</p>
         </section>
